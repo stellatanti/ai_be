@@ -21,12 +21,12 @@ expressServer.use((_req, res, next) => {
     next();
 });
 
-expressServer.post('/upload', fileUpload);
-expressServer.get('/upload', fileUpload);
-expressServer.get('/status/:id', fileStatus);
+expressServer.post('/ai/upload', fileUpload);
+expressServer.get('/ai/upload', fileUpload);
+expressServer.get('/ai/status/:id', fileStatus);
 
 
-expressServer.use('/file/res', express.static(__dirname + '/../tmp'));
+expressServer.use('/ai/file/res', express.static(__dirname + '/../tmp'));
 
 
 
