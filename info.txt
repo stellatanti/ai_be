@@ -1,0 +1,3 @@
+source ./venv/bin/activate
+python ./White-box-Cartoonization/test_code/cartoonize.py
+deactivate

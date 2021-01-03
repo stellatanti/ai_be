@@ -1,0 +1,21 @@
+{
+  "name": "thesis-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/express": "^4.17.8",
+    "@types/express-fileupload": "^1.1.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "gs-shell": "git+http://147.135.254.166:10280/npm/gs-shell.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --strictNullChecks false --noUnusedParameters --removeComments --module commonjs --target ES6 --outDir ./dist ./src/index.ts",
+    "start": "node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

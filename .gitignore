@@ -1,0 +1,7 @@
+/thesis_be/node_modules
+/thesis_be/dist
+/examples
+/venv
+/White-box-Cartoonization/venv
+/White-box-Cartoonization/test_code/venv
+/thesis_be/tmp/*
